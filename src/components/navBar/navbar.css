@@ -1,0 +1,186 @@
+@media only screen and (max-width: 900px) {
+    .nav-bar .left-section {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .nav-bar .right-section .lg-links {
+        display: none;
+    }
+
+    .nav-bar .left-section:hover {
+        .header-img-container img {
+            transform: rotate(0deg) !important;
+        }
+    }
+    
+    .nav-bar .left-section {
+        padding: 0 !important;
+    }
+
+    .nav-bar .left-section .header-img-container {
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+    }
+
+    .nav-bar .left-section .header {
+        font-size: 1.5rem;
+    }
+
+    .nav-bar .right-section .menu-container .icon {
+        display: block !important;
+    }
+
+    .nav-bar .right-section .menu-container .menu li {
+        font-size: 1.5rem !important;
+    }
+
+    .nav-bar .right-section .menu-container .menu {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .nav-bar .left-section .header-img-container {
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+    
+    .nav-bar .left-section .header {
+        font-size: 1rem;
+    }
+    
+    .nav-bar .right-section .menu-container .icon {
+        font-size: 1.75rem !important;
+    }
+    
+    .nav-bar .right-section .menu-container .menu li {
+        font-size: 1rem !important;
+    }
+}
+
+.nav-bar {
+    position: fixed;
+    background-color: rgba(2, 6, 10, 0.8);
+    width: 100%;
+    box-shadow: rgba(225, 235, 245, 0.3) 0 4px 18px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-bar * {
+    transition: 0.5s;
+}
+
+.nav-bar .left-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 0.5rem;
+}
+
+.nav-bar .left-section:hover {
+    .header-img-container img {
+        transform: rotate(360deg);
+    }
+}
+
+.nav-bar .left-section .header-img-container {
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-right: 1rem;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar .left-section .header-img-container img {
+    transition: 1s;
+}
+
+.nav-bar .header {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.25rem;
+}
+
+.nav-bar .header:hover {
+    text-shadow: 0px 0px 8px rgba(235, 245, 255, 0.45);
+}
+
+.nav-bar .nav-links {
+    display: flex;
+}
+
+.nav-bar .nav-links .nav-link {
+    list-style: none;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.nav-bar .nav-links .nav-link .link {
+    text-decoration: none;
+    color: rgba(225, 235, 245, 1);
+}
+
+.nav-bar .nav-links .nav-link:hover {
+    text-shadow: 0px 0px 8px rgba(235, 245, 255, 0.65);
+}
+
+.nav-bar .right-section .menu-container .icon {
+    background-color: transparent;
+    border: 0;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: rgba(225, 235, 245, 0.3);
+    display: none;
+}
+
+.nav-bar .right-section .menu-container .menu {
+    position: absolute;
+    margin-top: -.5rem;
+    margin-left: -2rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 8px;
+    padding: 0.5rem;
+    border-radius: 0.35rem;
+    transition: 0.5s;
+    display: none;
+}
+
+.nav-bar .right-section .menu-container .menu ul {
+    background-color: rgba(225, 235, 245, 1);
+    color: rgba(4, 14, 20, 1);
+    position: absolute;
+    background-color: rgba(225, 235, 245, 1);
+    color: rgba(4, 14, 20, 1);
+    margin-top: 0rem;
+    margin-left: -5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 8px;
+    padding: 0.5rem;
+    border-radius: 0.35rem;
+    transition: 0.5s;
+    flex-direction: column;
+}
+
+.nav-bar .right-section .menu-container .menu li {
+    padding: 0.75rem;
+    border-radius: 0.35rem;
+    display: block;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.5s;
+    text-align: start;
+    margin: 0;
+}
+
+.nav-bar .right-section .menu-container .menu li .link {
+    color: rgba(4, 14, 20, 1);
+}

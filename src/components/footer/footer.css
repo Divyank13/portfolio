@@ -1,0 +1,148 @@
+@media only screen and (max-width: 900px) {
+    .footer .name-img .img-container {
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+    }
+
+    .footer .name-img .img-container img:hover {
+        cursor: pointer;
+        transform: rotate(0deg) !important;
+    }
+
+    .footer .name-img .name {
+        font-size: 1.5rem !important;
+    }
+
+    .footer .name-img .mail {
+        font-size: 1.15rem !important;
+    }
+    
+    .footer .socials a:hover {
+        background-color: transparent !important;
+        color: rgba(235, 245, 255, 0.75) !important;
+        transform: scale(1) !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .footer .name-img .img-container {
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+    
+    .footer .name-img .name {
+        font-size: 1rem !important;
+    }
+    
+    .footer .name-img .mail {
+        font-size: 1rem !important;
+    }
+
+    .footer .socials a {
+        font-size: 1.5rem !important;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .footer .note {
+        font-size: 0.75rem;
+    }
+}
+
+.footer {
+    background-color: rgba(2, 6, 10, 0.8);
+    width: 100%;
+    box-shadow: rgba(225, 235, 245, 0.3) 0 4px 18px;
+    padding: 1rem;
+}
+
+.footer .name-img {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .name-img .img-container img:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.footer .name-img .img-container {
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-right: 1rem;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .name-img .img-container img {
+    transition: 1s;
+}
+
+.footer .name-img .name {
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.75rem;
+}
+
+.footer .name-img .name:hover {
+    text-shadow: 0px 0px 18px rgba(235, 245, 255, 0.75);
+}
+
+.footer .name-img .mail {
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    color: rgba(235, 245, 255, 1);
+    padding: 0.5rem;
+    border-radius: 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.75s;
+    text-decoration: none;
+    border: .1px solid rgba(235, 245, 255, 1);
+    margin-left: 1.25rem;
+}
+
+.footer .name-img .mail:hover {
+    color: rgba(2, 6, 10, 0.8);
+    background-color: rgba(235, 245, 255, 0.75);
+    transform: scale(0.9);
+}
+
+.footer .socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.75rem;
+}
+
+.footer .socials a {
+    margin: 0 0.5rem;
+    font-size: 1.75rem;
+    color: rgba(235, 245, 255, 1);
+    padding: 0.5rem;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.75s;
+}
+
+.footer .socials a:hover {
+    color: rgba(2, 6, 10, 0.8);
+    background-color: rgba(235, 245, 255, 0.75);
+    transform: scale(0.8);
+}
+
+.footer .note {
+    text-align: center;
+    margin-top: 0.75rem;
+}

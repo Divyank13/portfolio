@@ -8,7 +8,8 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
-import { IoLogoJavascript, IoLogoPython } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io";
+import { TbBrandCpp } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 
@@ -50,7 +51,7 @@ export const HomePage = () => {
                 <SiCss3 title="CSS" />
                 <IoLogoJavascript title="Javascript" />
                 <SiTypescript title="Typescript" />
-                <IoLogoPython title="Python" />
+                <TbBrandCpp title="C++" />
               </span>
             </li>
             <li className="skill">

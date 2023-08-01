@@ -24,7 +24,7 @@ export const HomePage = () => {
         </div>
         <div className="img-container">
           <img
-            src="https://github.com/shobhit-28/Portfolio/blob/main/src/Resources/MyImages/DSC_0989~2.JPG?raw=true"
+            src="https://github.com/Divyank13/portfolio/blob/main/src/Resources/MyImages/DSC_0989~2.JPG?raw=true"
             alt=""
             title="Shobhit Raj"
           />
@@ -33,7 +33,7 @@ export const HomePage = () => {
       <section id="skills" className="skills">
         <div className="gif-container" style={{ width: "18rem" }}>
           <img
-            src="https://github.com/shobhit-28/Portfolio/blob/main/src/Resources/gifs/1_partyanimsm2.gif?raw=true"
+            src="https://github.com/Divyank13/portfolio/blob/main/src/Resources/gifs/1_partyanimsm2.gif?raw=true"
             alt=""
           />
         </div>
